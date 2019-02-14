@@ -22,3 +22,43 @@ html {
 body {
   margin: 0;
 }
+
+header {
+  background-color: #e2e2e2;
+}
+
+h1 {
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  color: #0074d9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  background-color: #0074d9;
+  border-color: #0074d9;
+}
+
+.planets {
+  color: #fff;
+  background-color: #0074d9;
+}
+
+@media only screen and (min-width: 38em) {
+
+  h1 {
+    text-align: left;
+  }
+
+  nav {
+    text-align: right;
+  }
+
+}
